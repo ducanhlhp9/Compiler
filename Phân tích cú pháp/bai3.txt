@@ -1,0 +1,44 @@
+ngôn ngữ KPI phân tích cú pháp
+bắt đầu bằng program
+khai báo const , khai báo kiểu, khai báo biến, 
+khai báo thủ tục procdcl 
+block là định nhĩa đệ quy
+trong block có thể khai báo hằng, kiểu, biến, hoặc 1 thủ tục con
+
+
+hằng số không dấu: hằng số không dấu, số nguyên định nghĩa, 'kí tự'
+
+1 vài sơ đồ cú pháp khác type: 
+
+statement 
++ assignt: phép gán: biến hoặc hàm : biểu thức
++ proccal: lời gọi thủ tục: Call + procedureidentifier...
++ nhóm lệnh: statement được định  nghĩa đệ quy lại
++ if : if.. then... else
++ while: while(condition) do statement
++ for: for(biến) := to
+
+Biến:
+
++ tên biến+( có thể là amngr)
++ biểu thức + - term
++ term 
++ factor 
++ condition
+
+định nghĩa 
+số nguyên không dấu
+
+
+
+Văn phạm BNF( TƯƠNG ỨNG VỚI SƠ ĐỒ BÊN TRÊN)
+mô tả dưới dạng text
+lợi ích: khi lập trình nhìn chi tiết, dễ nhìn, 
+
+1:) Prog(program) , SB_SEMICOLON(;) 
+2:) Block: Decls có nghĩa là muốn lặp lại cái decls nhiều lần
+
+
+thiết kế bọ parse
+
+đọc program 

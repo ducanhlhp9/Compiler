@@ -1,0 +1,41 @@
+Program Example6;
+    CONST c1 = 10;
+  	      c2 = 'a';
+          c3 = 10.2;
+          c4 = 'hello';
+    
+    TYPE t1 = array(. 10 .) of integer;
+    VAR  v1 : Integer;
+         v2 : Array(. 10 .) of t1;
+         v3 : string;
+         v4 : double;
+
+Function F(p1 : Integer; Var p2 : char; var x : string) : Integer;
+     Begin
+       f := c1;
+       x := 'ccccc';
+     End;
+
+Procedure P(v1 : integer);
+    Const  c1 = 'a';
+           c3 = 10;
+            n2 = 'konichiwa'; 
+    Type    t1 = string;
+            t2 = array(. 10 .) of t1;
+    VAR  v2 : t2;
+         v3 : char;
+         t3 : double;
+         x : integer;
+         z : string;
+    Begin
+	(* v3 := 'a'; 
+    v1 := f(c3,v3); *)
+    v1 := 100 + 10.2 - z;
+    v3, x := 'a', 10 ; 
+    do do x := 10 while x = 1 while  x = 2
+
+    End;
+
+Begin
+    call p(c1);
+End.

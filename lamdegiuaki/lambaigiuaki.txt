@@ -1,0 +1,54 @@
+
+
+Trong file token.h 
+- Sửa lại số lượng keyword trong token (20 -> 22) Bỏ sung thêm 2 keyword mới.
+- Bổ sung thêm TK_STRING, TK_DOUBLE, KW_STRING, KW_DOUBLE vào trong phần TokenType.
+- Bổ sung thêm vào struct Token biến dvalue để chứa dữ liệu kiểu double.
+
+Trong file token.c 
+- Thêm vào 2 keyword vào mảng các keywords
+- Thêm vào hàm function tokenToString(): 4 case moi
+
+Trong file scanner.c 
+- them vao ham printToken 2 truong hop bien moi de in ra:
+- Sua lai 2 ham readConstantChar va ham readNumber de doc them 2 kieu du lieu moi
+
+Trong file symtab.h:
+- Thêm TypeClass 2 kieu du lieu moi
+- Thêm vao 2 kieu du lieu mới cho constantValue 
+- Thêm vao 2 ham tao kieu du lieu moi 
+- Them makeConstantValue cho 2 kiểu dữ liệu mới.
+
+Trong file symtab.c 
+- Them vao 2 stringType, doubleType tren phan khai bao sử dụng trong parse.c
+- Them 2 ham makeStringType va makeDoubleType
+- Them vao freeType 2 truong hop kieu du lieu moi
+- THem vao truong hop duplicateConstantValue
+- Them vao khai bao stringType, checkDoubleType
+- Them vao cleanSymtab => free 2  stringType, checkDoubleType
+
+Trong file semantics.h
+- Them vao 2 ham checkStringType va ham checkDoubleType
+- Them ham checkNumberType => Check kiểu dữ liệu có phải là kiẻu số int or double
+- Them ham checkTypeExpression() => modify lại ham checkTypeEquality
+
+Trong file semantics.c
+- Them 2 ham da dinh checkStringType va ham checkDoubleType
+- Them vao ham checkBasicType cho 2 kieu du lieu moi
+- Xoa ham checkTypeEquality
+- Them ham checkTypeExpression()
+
+Trong file parser.c 
+- Cac ham co TODO:GK1
+
+Trong file debug.c 
+- them vao hamf printType in ra 2 kieu du lieu moi
+- them vao ham printConstantValue
+
+Trong file error.h
+- Thêm định nghĩa lỗi đọc double vào ErrorCode
+
+Trong file error.c
+- Thêm và sửa lại các định nghĩa thông báo lỗi
+
+

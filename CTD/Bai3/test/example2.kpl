@@ -1,0 +1,50 @@
+Program Example2; (* Factorial *)
+   
+Var n : Integer;
+
+Function F(n : Integer) : Integer;
+  Begin
+    If n = 0 Then F := 1 Else F := N * F (N - 1);
+  End;
+
+Begin
+  For n := 1 To 7 Do
+    Begin
+      Call WriteLn;
+      Call WriteI( F(i));
+    End;
+End. (* Factorial *)
+
+
+PROGRAM TEST;
+TYPE T = INTEGER;
+VAR A : ARRAY(. 10 .) OF T;
+    N : INTEGER;
+
+PROCEDURE INPUT;
+VAR I : INTEGER;
+
+BEGIN
+  N := READI;
+  FOR I := 1 TO N DO
+	A(. I .) := READI;
+END;
+
+FUNCTION ABS : INTEGER;
+VAR I : INTEGER;
+BEGIN 
+  FOR I := 1 TO N DO
+	BEGIN
+	  IF A(.I.)<0 THEN A(.I.) := -A(.I.)
+	END
+END;
+
+FUNCTION SUM : INTEGER;
+VAR I : INTEGER;
+    S : INTEGER;
+BEGIN
+    S := 0;
+    I := 1;
+    WHILE I <= N DO S := S + A(.I.);
+END;
+

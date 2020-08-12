@@ -1,0 +1,6 @@
+Program Example1; (* Example 1 *)
+var n:Integer;
+Begin
+n:=0;
+REPEAT n:=n+1 until n>3
+End. (* Example 1 *)

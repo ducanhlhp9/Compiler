@@ -1,0 +1,16 @@
+Program Example5; (* Factorial *)
+   
+Var n : char;
+    i : string;
+    x : double;
+    y : integer;
+
+Begin
+    n:='a';
+    i:='dsfsd fsdf';
+    x := 1.4;
+    x,y:=1,6;
+    
+
+
+End. (* Factorial *)

@@ -1,0 +1,13 @@
+Program Swap; 
+  Var A : INTEGER;
+   B : INTEGER;
+   C : INTEGER;
+   M : CHAR;
+   X : INTEGER;
+Begin
+    C := A;
+    A := B;
+    B,C := C,C;
+    X := SUM (A, SUM (A,B));
+    A,B := SUM A,C  , C
+End.

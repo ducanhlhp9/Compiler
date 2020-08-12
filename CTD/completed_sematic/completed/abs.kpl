@@ -1,0 +1,7 @@
+Program Abs;
+  Var X : INTEGER;   
+  Y : INTEGER;
+  Q : INTEGER;
+Begin
+	do while X>9
+End.

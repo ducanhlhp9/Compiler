@@ -1,0 +1,43 @@
+PROGRAM PLUSARRAY;
+VAR  
+     I : INTEGER;
+     J : INTEGER;
+     A : Array (.10.) OF Array (.10.) OF INTEGER;
+     B : Array (.10.) OF Array (.10.) OF INTEGER;
+     C : Array (.10.) OF Array (.10.) OF INTEGER;
+     N : INTEGER;
+PROCEDURE PLUSARRAY;
+BEGIN
+	FOR I := 1 TO N DO 
+		BEGIN
+			FOR J := 1 TO N DO
+				C(.I.)(.J.) := A(.I.)(.J.) + B(.I.)(.J.);
+		END;
+END;
+
+PROCEDURE PRINTRESULT;
+BEGIN
+	FOR I := 1 TO N DO 
+		BEGIN
+			FOR J := 1 TO N DO
+				CALL WRITEI(C(.I.)(.J.));
+		END;
+END;
+
+BEGIN
+	N := READI;
+
+	IF N <= 10 THEN
+		BEGIN
+			FOR I := 1 TO N DO
+				BEGIN
+					FOR J := 1 TO N DO
+						BEGIN
+							A(.I.)(.J.) := READI;
+							B(.I.)(.J.) := READI;
+						END;
+				END;
+		END;
+	CALL PLUSARRAY;
+	CALL PRINTRESULT;
+END.

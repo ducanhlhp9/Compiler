@@ -1,0 +1,25 @@
+program AbsSum; (*if <Condition> return <Expression> else return <Expression>*)
+var x : integer;
+    A : array(.10.) of integer;
+    i : integer;
+    n : integer;
+    sum : integer;
+
+procedure abs(x : integer);
+begin
+    x := if x >=0 return x else return -x;
+end;
+
+begin
+    n := readi; (*Doc so luong phan tu*)
+    for i := 1 to n do 
+    begin
+        A(.i.) := readi;
+    end;
+
+    for i:= 1 to n do 
+    begin 
+        sum := sum + A(.i.);
+    end;
+
+end.

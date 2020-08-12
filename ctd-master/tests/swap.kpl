@@ -1,0 +1,7 @@
+program SWAP; (*SWAP.KPL*)
+var x : integer;
+    y : integer;
+
+begin
+    x, y := y, x;
+end.

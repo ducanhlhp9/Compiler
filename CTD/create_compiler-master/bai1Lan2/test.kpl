@@ -1,0 +1,18 @@
+Program Example5; (* Factorial *)
+   
+Var n : Integer;
+    i : double;
+
+Function F(n : double) : Integer;
+  Begin
+  
+    i:=1.2;
+  End;
+
+Begin
+  For n := 1 To 7 Do
+    Begin
+      Call WriteLn;
+      Call WriteI( F(i));
+    End;
+End. (* Factorial *)

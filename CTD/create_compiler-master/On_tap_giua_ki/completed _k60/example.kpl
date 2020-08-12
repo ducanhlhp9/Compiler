@@ -1,0 +1,7 @@
+PROGRAM  TEST;
+VAR X:INTERGER;
+    Y:INTERGER;
+    Z:INTERGER;
+BEGIN
+    x<>y;
+END.

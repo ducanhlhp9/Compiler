@@ -1,0 +1,10 @@
+Program Example1; (* Example 1 *)
+TYPE T = float;
+Var n : float;
+    z : string;
+    i : ARRAY(.10.) OF T;
+
+Begin
+    n := 5.5;
+    z := "Hello";
+End. (* Example 1 *)

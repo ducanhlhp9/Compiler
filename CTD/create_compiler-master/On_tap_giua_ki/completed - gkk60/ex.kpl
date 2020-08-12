@@ -1,0 +1,6 @@
+PROGRAM TEST;
+
+
+BEGIN
+    repeat UNTIL X>1;
+END.

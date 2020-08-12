@@ -1,0 +1,11 @@
+program abs;
+const k = 3;
+var x:integer;
+    y:char;
+    m:char;
+begin
+   m:=x;
+    m,y:=x,y;
+     x:=m;
+   
+end.

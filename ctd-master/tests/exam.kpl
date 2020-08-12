@@ -1,0 +1,12 @@
+program exam;
+const fl = -.678;
+      str = "hello";
+var n : float;
+    s : string;
+function F (n : float; s : string) : string;
+    begin
+        if n<0 then F:= " " else F:= F(n-1, s) + F(n-1, s);
+    end;
+begin
+    call writeS( F(10.5, "hello"));
+end.

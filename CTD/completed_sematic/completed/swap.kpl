@@ -1,0 +1,12 @@
+Program Swap; 
+  Var A : INTEGER;
+   B : INTEGER;
+   C : INTEGER;
+   M : CHAR;
+Begin
+    A,B := 6,0;
+    C := A;
+    A := B;
+    B := C;
+      
+End.

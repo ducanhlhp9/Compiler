@@ -1,0 +1,19 @@
+Program fibo; (* Factorial *)
+   
+Var n : Integer;
+
+Function F(n : Integer) : Integer;
+  Begin
+	If n = 0 Then F := F ;
+	If n = 1 Then F := F + 1 ;
+    	If n > 1 Then F := F(n-1) + F(n-2);
+  End;
+Begin 
+  n := READI;
+  Begin
+	CALL WriteI(F(n));
+	CALL WriteLn;
+  End;
+End.
+
+

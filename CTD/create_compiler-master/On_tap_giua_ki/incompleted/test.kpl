@@ -1,0 +1,5 @@
+program test;
+Begin
+var x:interger;
+    _y:interger;
+End.

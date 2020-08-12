@@ -1,0 +1,12 @@
+Program giaithua;
+var
+n:interger;
+x:interger;
+m:interger;
+Begin
+n:=readi;
+x:=1;
+for m:=1 to n do
+    x:=x*m;
+call writei(x);
+End.

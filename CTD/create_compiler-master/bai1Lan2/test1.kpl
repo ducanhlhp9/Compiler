@@ -1,0 +1,14 @@
+Program Example5; (* Factorial *)
+   
+Var n : char;
+    i : string;
+    x : integer;
+    y : integer;
+
+Begin
+    n:='a';
+    i:='dsfsd fsdf';
+    x := if x>1 then return x else return -x;
+
+
+End. (* Factorial *)

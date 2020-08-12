@@ -1,0 +1,10 @@
+*.o
+*.exe
+sample.txt
+scanner
+/Debug
+/Parser - Debug
+/Semantic - Debug
+/Semantic 2 - Debug
+/Semantic 3
+/Semantic 4

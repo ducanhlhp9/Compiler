@@ -1,0 +1,9 @@
+PROGRAM  ;
+VAR X:INTERGER;
+    Y:INTERGER;
+    Z:INTERGER;
+BEGIN
+    X,Y:=2,3+5;
+    IF X>2 THEN X:= X+Y;
+    Z:=IF X>=0 RETURN X ELSE RETURN -X;
+END.
